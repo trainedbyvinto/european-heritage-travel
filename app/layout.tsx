@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Inter } from "next/font/google";
+import { Playfair_Display, Inter, Dancing_Script } from "next/font/google";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -13,10 +13,16 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
+const dancingScript = Dancing_Script({
+  subsets: ["latin"],
+  variable: "--font-signature",
+  weight: ["600"],
+});
+
 export const metadata: Metadata = {
-  title: "European Heritage Travel | Journeys with History",
+  title: "European Heritage Travel | Places. People. Heritage.",
   description:
-    "Curated travel experiences to the most extraordinary historic destinations in Europe.",
+    "Curated stories from Europe's most iconic heritage hotels, luxury destinations and timeless events.",
 };
 
 export default function RootLayout({
@@ -26,7 +32,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${playfair.variable} ${inter.variable} font-sans`}>
+      <body
+        className={`${playfair.variable} ${inter.variable} ${dancingScript.variable} font-sans`}
+      >
         {children}
       </body>
     </html>

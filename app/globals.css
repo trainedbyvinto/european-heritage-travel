@@ -3,11 +3,12 @@
 @theme {
   --color-cream: #F7F3EA;
   --color-charcoal: #2A2A26;
-  --color-gold: #B8905C;
+  --color-gold: #C17845;
   --color-pine: #33402F;
 
   --font-serif: var(--font-playfair), serif;
   --font-sans: var(--font-inter), sans-serif;
+  --font-script: var(--font-signature), cursive;
 }
 
 body {
