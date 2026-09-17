@@ -193,7 +193,7 @@ export default function Home() {
             </svg>
             <p className="text-charcoal">Collaborations &amp; Press</p>
             <p className="text-charcoal/60 text-sm">
-              hello@europeanheritagetravel.com
+              media@europeanheritagetravel.com
             </p>
           </div>
           <div className="flex flex-col items-center gap-2">
@@ -255,7 +255,7 @@ export default function Home() {
           <a href="#">About</a> | <a href="#">Contact</a> | <a href="#">Instagram</a>
         </p>
         <p className="text-xs text-charcoal/50">
-          © 2025 European Heritage Travel. All rights reserved.
+          © 2026 European Heritage Travel. All rights reserved.
         </p>
       </footer>
     </main>
