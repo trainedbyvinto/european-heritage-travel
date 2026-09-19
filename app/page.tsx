@@ -43,14 +43,15 @@ export default function Home() {
       </header>
 
       {/* Hero */}
-      <section className="relative h-[600px] md:h-[720px] w-full">
+      <section className="relative h-[500px] md:h-[850px] w-full">
         <Image
           src="/images/hero.jpg"
           alt="Suvretta House, St. Moritz"
           fill
           priority
           quality={100}
-          className="object-cover"
+          sizes="100vw"
+          className="object-cover [object-position:center_15%]"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-charcoal/60 via-charcoal/10 to-transparent" />
         <div className="relative z-10 h-full flex flex-col justify-center px-6 md:px-16 max-w-xl text-white">
@@ -99,7 +100,7 @@ export default function Home() {
                   alt={c.name}
                   fill
                   quality={100}
-                  className="object-cover"
+                  className="object-cover [object-position:center_15%]"
                 />
               </div>
               <p className="text-xs tracking-[0.2em] text-charcoal">
@@ -125,7 +126,7 @@ export default function Home() {
               alt="Suvretta House balcony view"
               fill
               quality={100}
-              className="object-cover"
+              className="object-cover [object-position:center_15%]"
             />
           </div>
           <div>
@@ -160,7 +161,7 @@ export default function Home() {
               alt="Helen Arnold"
               fill
               quality={100}
-              className="object-cover"
+              className="object-cover [object-position:center_15%]"
             />
           </div>
           <div>
